@@ -1,0 +1,94 @@
+*{
+     font-family:'Courier New';
+}
+
+h1,h3{
+     color: #b92b27;
+}
+
+#login{
+     background-color: white;
+}
+
+#signup{
+     background-color: #b92b27;
+     color: white;
+}
+.upvote{
+     background-color: green;
+     color: antiquewhite;
+}
+
+/* decendent selector */
+p a {
+     background-color: yellow;
+     color: black;
+}
+
+nav ul li a{
+     color: rgb(0, 0, 0);
+     background-color: yellowgreen;
+}
+
+p + h3{
+      text-decoration: underline;
+}
+.upvote + button{
+     background-color: aquamarine;
+     color: black;
+}
+ div>input{
+     background-color: aquamarine;
+     color: black;
+}
+input[type=text]{
+     color: rgb(225, 9, 9);
+     background-color:blueviolet;
+}
+input[ type=password]{
+     color: black;
+}
+#myid p{
+     color: green;
+}
+button:hover{
+     background-color: black
+     color(rgb(251, 246, 246) rgb(231, 3, 3) green blue);
+}
+button:active{
+     color: black;
+     background-color: pink;
+}
+button:checked{
+     color: greenyellow;
+}
+p:active{
+     font-weight: bold;
+     color: black;
+}
+div:nth-of-type(1n){
+     background-color: rgb(183, 180, 176);
+}
+
+
+
+
+input[type=radio]:checked + label{
+     color: red;
+     font-weight: bold;
+}
+p::selection{
+     background-color: chartreuse;
+}
+p::first-line{
+     color: crimson;
+}
+h1::first-letter{
+     color: rgb(2, 246, 10);
+}
+h3{
+     background-color: chocolate;
+}
+h3{
+     background-color: darkcyan
+}

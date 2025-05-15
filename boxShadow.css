@@ -1,0 +1,11 @@
+div{
+     height: 200px;
+     width: 400px;
+     background-color: rgb(59, 85, 17);
+     color: aliceblue;
+     padding: 20px;
+     border-radius: 5%;
+     box-shadow: 20px 20px 10px black;
+    text-align: center;
+    margin: 10px auto;
+}

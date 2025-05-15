@@ -1,0 +1,21 @@
+
+     h1{
+          color :blue ;
+           background-color: rgb(183, 114, 154);
+     }
+     p{
+          color: rgb(116, 7, 219);
+          background-color: rgb(226, 161, 113);
+     }
+
+     button{
+          color:blueviolet;
+          background-color:white;
+     }
+
+
+h1{
+     color:#ffffff;
+     background-color:#000;
+}
+

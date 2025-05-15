@@ -1,0 +1,22 @@
+#box{
+     height: 150px;
+     width: 300px;
+     background-color: gray;
+     border: 5px;
+     margin-right: 1em;
+     margin-bottom: 40px;
+     margin-left: 2em;
+     padding: 1em;
+}
+
+
+.box{
+     height: 100px;
+     width:100;
+     background-color: pink;
+     border: 50px solid #000000;
+     display: inline;
+     border-radius: 50%;
+     margin: 20px;
+    
+}
